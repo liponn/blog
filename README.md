@@ -1,5 +1,6 @@
 # blog
 
+* [【C】图解aclocal、autoconf、automake、autoheader、configure](https://github.com/wdy331644741/blog/issues/12)
 
 * [【PHP】Laravel中使用Ioc容器的singleton方法和bind方法创建实例的区别](https://github.com/wdy331644741/api/issues/4)
 * [【PHP】PHP-Trait](https://github.com/wdy331644741/blog/issues/6)
