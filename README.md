@@ -8,6 +8,8 @@
 * [【PHP】laravel处理请求准备工作](https://github.com/wdy331644741/api/issues/5)
 * [【PHP】设计模式-装饰着模式(laravel)](https://github.com/wdy331644741/api/issues/1)
 
+* [【PHP】并发锁](https://github.com/wdy331644741/blog/issues/9)
+
 * [【PHP】PHP-Trait](https://github.com/wdy331644741/blog/issues/6)
 * [【PHP】new self 和new static](https://github.com/wdy331644741/api/issues/3)
 * [【PHP】PHPcode执行过程](https://github.com/wdy331644741/blog/issues/5)
