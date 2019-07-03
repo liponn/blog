@@ -10,9 +10,17 @@
 
 * [【PHP】PHP-Trait](https://github.com/wdy331644741/blog/issues/6)
 * [【PHP】new self 和new static](https://github.com/wdy331644741/api/issues/3)
-----
 * [【PHP】PHPcode执行过程](https://github.com/wdy331644741/blog/issues/5)
+
+* [【PHP】phpredis和predis](https://github.com/wdy331644741/blog/issues/10)
+----
+* [【SQL】Sql分组内排序](https://github.com/wdy331644741/blog/issues/8)
 
 ----
 * [【shell】shell 1>&2 2>&1 &>filename重定向的含义和区别](https://github.com/wdy331644741/blog/issues/11)
+* [【shell】awk筛选nginx日志，404请求](https://github.com/wdy331644741/blog/issues/4)
 
+---
+* [【git】美化git命令行](https://github.com/wdy331644741/blog/issues/1)
+* [【git】忽略git文件权限](https://github.com/wdy331644741/blog/issues/3)
+* [【git】cpoy另一个分支的文件](https://github.com/wdy331644741/blog/issues/2)
