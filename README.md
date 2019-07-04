@@ -16,6 +16,7 @@
 * [【PHP】PHPcode执行过程](https://github.com/wdy331644741/blog/issues/5)
 
 * [【PHP】phpredis和predis](https://github.com/wdy331644741/blog/issues/10)
+* [【PHP】Debug 远程调试](https://github.com/wdy331644741/blog/issues/15)
 ----
 * [【SQL】Sql分组内排序](https://github.com/wdy331644741/blog/issues/8)
 
