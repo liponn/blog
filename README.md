@@ -4,9 +4,11 @@
 * [【C】configure 配置参数](https://github.com/wdy331644741/blog/issues/14)
 ---
 * [【PHP】Laravel中使用Ioc容器的singleton方法和bind方法创建实例的区别](https://github.com/wdy331644741/api/issues/4)
+* [【PHP】通过laravel了解DI/IoC](https://github.com/wdy331644741/api/issues/7)
 * [【PHP】laravel pip管道验证HTTP 极思惶恐](https://github.com/wdy331644741/api/issues/2)
 * [【PHP】Laravel——timestamp字段](https://github.com/wdy331644741/api/issues/6)
 * [【PHP】laravel处理请求准备工作](https://github.com/wdy331644741/api/issues/5)
+
 * [【PHP】设计模式-装饰着模式(laravel)](https://github.com/wdy331644741/api/issues/1)
 
 * [【PHP】并发锁](https://github.com/wdy331644741/blog/issues/9)
