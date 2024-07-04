@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2024-07-04T08:31:20.232Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="FWvlLkEKeB5h9Vzp_B--" version="24.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-04T09:53:01.804Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="2dW6qhitvFardjRDx1bC" version="24.6.2" type="github">
   <diagram id="7d6bJs2FkEKzETVyfdtX" name="第 1 页">
     <mxGraphModel dx="4713" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-182" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="3960" width="280" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-181" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-203" y="4000" width="403" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-160" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="4220" width="360" height="220" as="geometry" />
+        </mxCell>
         <mxCell id="KXn5TZFpYLUK10ymv2Vh-13" value="注册一个订阅发布event&lt;div&gt;LocalDataChangeEvent&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;fillColor=#4D9900;" parent="1" vertex="1">
           <mxGeometry x="-1925" y="2805" width="150" height="62" as="geometry" />
         </mxCell>
@@ -1017,94 +1026,154 @@
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-83" value="方法区（概念）" style="ellipse;whiteSpace=wrap;html=1;align=center;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="475" y="3020" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-86" value="Impl实现类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-447" y="3985" width="117" height="30" as="geometry" />
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-86" value="扫描出所有&lt;div&gt;Impl实现类&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-435" y="3990" width="95" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="q4-rTCUhOt8WhVU0LQ_I-87" target="q4-rTCUhOt8WhVU0LQ_I-97">
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="q4-rTCUhOt8WhVU0LQ_I-181" target="q4-rTCUhOt8WhVU0LQ_I-97">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7" y="3970" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q4-rTCUhOt8WhVU0LQ_I-89" target="q4-rTCUhOt8WhVU0LQ_I-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-87" value="ServiceBean" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-53" y="3970" width="120" height="60" as="geometry" />
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.133;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="q4-rTCUhOt8WhVU0LQ_I-89" target="q4-rTCUhOt8WhVU0LQ_I-181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-177" value="添加BeanDefinition" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q4-rTCUhOt8WhVU0LQ_I-168">
+          <mxGeometry x="-0.0829" y="-1" relative="1" as="geometry">
+            <mxPoint x="2" y="19" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-89" value="BeanDefinitionRegistryPostProcessor&lt;div&gt;注册新的BeanDefinition【ServiceBean的】&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="-511" y="3830" width="293" height="60" as="geometry" />
+          <mxGeometry x="-533" y="3850" width="293" height="60" as="geometry" />
         </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q4-rTCUhOt8WhVU0LQ_I-97" target="q4-rTCUhOt8WhVU0LQ_I-100">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-170" value="触发服务暴漏" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q4-rTCUhOt8WhVU0LQ_I-101">
+          <mxGeometry x="0.0932" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-97" value="ApplicationListener&amp;lt;ContextRefreshedEvent&amp;gt;&lt;div&gt;监听事件&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="-48" y="3850" width="293" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q4-rTCUhOt8WhVU0LQ_I-100" target="q4-rTCUhOt8WhVU0LQ_I-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-100" value="export&lt;div&gt;服务暴漏&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="261.81" y="4160" width="120" height="60" as="geometry" />
+          <mxGeometry x="251.81" y="4062.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-106" value="注册中心配置信息&lt;div&gt;registryConfig&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-203" y="3950" width="120" height="40" as="geometry" />
+          <mxGeometry x="-188" y="4052" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-107" value="&lt;div&gt;目标类&lt;/div&gt;ref" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-206" y="4080" width="120" height="40" as="geometry" />
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-107" value="&lt;div&gt;要代理的目标类&lt;/div&gt;ref" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="4052" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-113" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-129.81" y="4160" width="334" height="180" as="geometry" />
+          <mxGeometry x="-124" y="4240" width="314" height="140" as="geometry" />
         </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-108" value="&lt;div&gt;服务暴漏封装对象&lt;/div&gt;&lt;div&gt;ProtocolConfig&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-206" y="4015" width="120" height="40" as="geometry" />
+          <mxGeometry x="70" y="4052" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-110" value="代理target&lt;div&gt;&lt;/div&gt;&lt;div&gt;proxy&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-116.19" y="4270" width="120" height="40" as="geometry" />
+          <mxGeometry x="-110.38" y="4300" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-111" value="回调函数&lt;div&gt;invoke&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="51.81" y="4270" width="121.5" height="40" as="geometry" />
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-111" value="回调函数&lt;span style=&quot;background-color: initial;&quot;&gt;invoke&lt;/span&gt;&lt;div&gt;直接调用代理proxyTarget目标方法&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="23.5" y="4300" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q4-rTCUhOt8WhVU0LQ_I-114" target="q4-rTCUhOt8WhVU0LQ_I-115">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-114" value="注册url到注册中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="429.81" y="4370" width="120" height="60" as="geometry" />
+          <mxGeometry x="252.81" y="4162.5" width="118" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q4-rTCUhOt8WhVU0LQ_I-115" target="q4-rTCUhOt8WhVU0LQ_I-118">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-115" value="把Invoker包装成Exporter对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="256.81" y="4370" width="120" height="60" as="geometry" />
+          <mxGeometry x="246.81" y="4467.5" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-117" value="存入缓存&lt;div&gt;Map&amp;lt;String, Exporter&amp;lt;?&amp;gt;&amp;gt; exporterMap&lt;br&gt;&lt;/div&gt;&lt;div&gt;String是接口全限定名。方便后面在服务调用的时候快速匹配到对应的service&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-46.19" y="4450" width="260" height="60" as="geometry" />
+          <mxGeometry x="-60" y="4470" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-174" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q4-rTCUhOt8WhVU0LQ_I-118" target="q4-rTCUhOt8WhVU0LQ_I-159">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-118" value="开启Netty&lt;div&gt;打开服务端口&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="251.81" y="4520" width="120" height="60" as="geometry" />
+          <mxGeometry x="264.92999999999995" y="4557.5" width="94.68" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-119" value="调用者" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="878" y="3950" width="117" height="30" as="geometry" />
+          <mxGeometry x="979" y="3972.5" width="117" height="30" as="geometry" />
         </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-120" value="@Reference注解注入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="878" y="4000" width="152" height="40" as="geometry" />
+          <mxGeometry x="979" y="4022.5" width="152" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-121" value="实现InstantiationAwareBeanPostProcessor&lt;div&gt;作用于bean的属性注入这个过程&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="995" y="3820" width="283" height="60" as="geometry" />
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="q4-rTCUhOt8WhVU0LQ_I-121" target="q4-rTCUhOt8WhVU0LQ_I-182">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1505" y="4068" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1320" y="3900" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-122" value="ReferenceBean" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="3955" width="120" height="60" as="geometry" />
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-121" value="实现InstantiationAwareBeanPostProcessor&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;postProcessPropertyValues作用于属性填充前&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="983.5" y="3870" width="283" height="60" as="geometry" />
         </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-124" value="interfaceClass&lt;div&gt;属性类型，也就是指接口名&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="4015" width="230" height="50" as="geometry" />
+          <mxGeometry x="1195" y="4037" width="190" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-126" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ref&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="4180" width="120" height="40" as="geometry" />
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="q4-rTCUhOt8WhVU0LQ_I-126" target="q4-rTCUhOt8WhVU0LQ_I-120">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-128" value="JDK动态代理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1278" y="4290" width="120" height="60" as="geometry" />
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-158" value="最终将赋给字段" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q4-rTCUhOt8WhVU0LQ_I-157">
+          <mxGeometry x="-0.0447" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-126" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ref属性&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="4110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="q4-rTCUhOt8WhVU0LQ_I-128" target="q4-rTCUhOt8WhVU0LQ_I-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-128" value="JDK动态代理&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;将invoke封装为动态代理&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="4280" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q4-rTCUhOt8WhVU0LQ_I-129" target="q4-rTCUhOt8WhVU0LQ_I-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q4-rTCUhOt8WhVU0LQ_I-129" target="q4-rTCUhOt8WhVU0LQ_I-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q4-rTCUhOt8WhVU0LQ_I-129" target="q4-rTCUhOt8WhVU0LQ_I-135">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-129" value="new RegistryDirectory对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1540" y="4110" width="150" height="60" as="geometry" />
+          <mxGeometry x="1420" y="4270" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-131" value="注册中心配置信息&lt;div&gt;registryConfig&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="3955" width="120" height="40" as="geometry" />
+          <mxGeometry x="1230" y="3980" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-132" value="拼接url 去注册中心请求&lt;div&gt;返回服务list【注册多个服务实例】&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1610" y="4220" width="190" height="60" as="geometry" />
         </mxCell>
         <UserObject label="zookeeper://127.0.0.1:2181/org.mini.dubbo.example.api.HelloService?registry=zookeeper&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;并返回&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;dubbo://127.0.0.1:8888/org.mini.dubbo.example.api.HelloService?accepts=-1&amp;amp;loadbalance=roundrobin&amp;amp;threads=4&lt;br&gt;&lt;/div&gt;" link="zookeeper://127.0.0.1:2181/org.mini.dubbo.example.api.HelloService?registry=zookeeper" id="q4-rTCUhOt8WhVU0LQ_I-134">
           <mxCell style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-            <mxGeometry x="1860" y="4060" width="520" height="210" as="geometry" />
+            <mxGeometry x="1550" y="4110" width="500" height="102.5" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-135" value="组装成List&amp;lt;Invoker&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1610" y="4310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="q4-rTCUhOt8WhVU0LQ_I-141" target="q4-rTCUhOt8WhVU0LQ_I-128">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1775" y="4720" />
+              <mxPoint x="1290" y="4720" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-141" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1610" y="4400" width="330" height="190" as="geometry" />
@@ -1115,20 +1184,67 @@
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-138" value="接口名" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1635" y="4510" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-142" value="invoke()回调方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1795" y="4485" width="120" height="45" as="geometry" />
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-142" value="invoke()回调方法&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;方法中利用netty发送请求&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="4485" width="150" height="65" as="geometry" />
         </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-147" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Invoker对象&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1705" y="4410" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-148" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Invoker对象&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-17.999999999999943" y="4190" width="90" height="30" as="geometry" />
+          <mxGeometry x="-89.99999999999994" y="4250" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q4-rTCUhOt8WhVU0LQ_I-149" target="q4-rTCUhOt8WhVU0LQ_I-150">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-149" value="包装RegistryDirectory对象到ClusterInvoker对象中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1460" y="4660" width="180" height="70" as="geometry" />
+          <mxGeometry x="1405" y="4530" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.447;entryY=1.001;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="q4-rTCUhOt8WhVU0LQ_I-150" target="q4-rTCUhOt8WhVU0LQ_I-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-152" value="返回" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q4-rTCUhOt8WhVU0LQ_I-151">
+          <mxGeometry x="-0.6367" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="q4-rTCUhOt8WhVU0LQ_I-150" value="ClusterInvoker对象封装一个回调方法。主要实现了服务调用的负载均衡" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1480" y="4770" width="200" height="70" as="geometry" />
+          <mxGeometry x="1395" y="4630" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-159" value="给Netty绑定一个ChannelHandler&lt;div&gt;解析服务给指定的Exporter&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="221.81" y="4630" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-162" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="195" y="4660" as="sourcePoint" />
+            <mxPoint x="-380" y="4660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-163" value="执行Invoker的回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="4618" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-164" value="Invoker的回调中再执行目标Impl实例的方法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-333" y="4618" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-165" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Exporter&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="4405" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-167" value="带有@Service注解的" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="3940" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-175" value="bean属性注入阶段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="4098" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-176" value="bean的初始化阶段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-206" y="4100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-183" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;ServiceBean&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="4000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="q4-rTCUhOt8WhVU0LQ_I-184" target="q4-rTCUhOt8WhVU0LQ_I-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q4-rTCUhOt8WhVU0LQ_I-184" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;ReferenceBean&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="3985" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
