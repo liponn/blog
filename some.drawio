@@ -1,9 +1,92 @@
-<mxfile host="app.diagrams.net" modified="2024-07-06T12:32:44.506Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.4" etag="JLKIbri-T87M7GSTRsx7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-09T10:45:06.884Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="POJq8AhQ37bpY7qKY7nB" version="24.6.4" type="github">
   <diagram name="第 1 页" id="ozlCW-Ee5-HFpllsYa1k">
-    <mxGraphModel>
+    <mxGraphModel dx="1194" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="820" width="540" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-1" value="Thread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-2" value="&lt;div&gt;ThreadLocalMap类型&lt;br&gt;&lt;/div&gt;threadLocals" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1020" width="410" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-6" value="ThreadLocal" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="840" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-7" value="静态属性 tl1 = new ThreadLocal&amp;lt;String&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="380" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-8" value="tl1.get()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-9" value="找当前线程.threadLocals属性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L0zeIL_IlN0LuXFVjX9a-10" target="L0zeIL_IlN0LuXFVjX9a-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L0zeIL_IlN0LuXFVjX9a-10" target="L0zeIL_IlN0LuXFVjX9a-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-10" value="是否时null" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="900" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L0zeIL_IlN0LuXFVjX9a-12" target="L0zeIL_IlN0LuXFVjX9a-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-12" value="getEntry()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-14" value="当前线程的threadLocals的属性&lt;div&gt;new ThreadLocalMap(this, 初始value)&lt;/div&gt;&lt;div&gt;this指ThreadLocal实例&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="902.5" width="210" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-16" value="不是null" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-17" value="static ThreadLocalMap" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1030" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1140" width="310" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L0zeIL_IlN0LuXFVjX9a-19" target="L0zeIL_IlN0LuXFVjX9a-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-19" value="成员属性 Entry[] table" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1075" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-20" value="static Entry class&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1140" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-21" value="k：ThreadLocal对象" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1210" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-23" value="v：Object" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1210" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-24" value="实现了哈希map，对k哈希取模，放入数组offset中去" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-27" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="1090" as="sourcePoint" />
+            <mxPoint x="560" y="1089.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="1089.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-29" value="返回Entry的v" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1190" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
