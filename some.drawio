@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T09:48:58.801Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Hkqf-sJW7GHp018xKuI5" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-10T10:08:39.099Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="hkC0yO5XQGk9-hJJaRTT" version="24.6.4" type="github">
   <diagram name="第 1 页" id="ozlCW-Ee5-HFpllsYa1k">
     <mxGraphModel dx="211" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -295,7 +295,10 @@
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L0zeIL_IlN0LuXFVjX9a-129" target="L0zeIL_IlN0LuXFVjX9a-132">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="L0zeIL_IlN0LuXFVjX9a-129" value="增加心跳" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L0zeIL_IlN0LuXFVjX9a-129" target="L0zeIL_IlN0LuXFVjX9a-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-129" value="增加心跳信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="937.5" y="1420" width="85" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-131" value="if&amp;nbsp; isEphemeral()&lt;div&gt;AC模式-持久化实例&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -307,11 +310,29 @@
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-132" value="注册实例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="1505" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="L0zeIL_IlN0LuXFVjX9a-133" value="调用/instance请求接口注册实例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1120.5" y="1500" width="199" height="40" as="geometry" />
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-133" value="/instance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1126.5" y="1505" width="89.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="L0zeIL_IlN0LuXFVjX9a-138" value="定时" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="1405" width="120" height="60" as="geometry" />
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L0zeIL_IlN0LuXFVjX9a-138" target="L0zeIL_IlN0LuXFVjX9a-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-138" value="schedule(任务BeatTask)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1116" y="1417.5" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="L0zeIL_IlN0LuXFVjX9a-139" target="L0zeIL_IlN0LuXFVjX9a-141">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-139" value="serverProxy.sendBeat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1322" y="1420" width="154" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-140" value="serverProxy.registerService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1053" y="1560" width="154" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-141" value="/instance/beat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1519.5" y="1420" width="89.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-145" value="注意不是定时执行，而是根据服务的返回的period字段决定下次执行时间" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1370" width="206" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
