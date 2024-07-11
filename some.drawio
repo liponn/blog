@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-11T16:54:56.493Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="tcTDXj2_2lmXe56mGW8r" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-11T17:23:01.904Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Qc9vjeT9atId_gxwznnI" version="24.6.4" type="github">
   <diagram name="第 1 页" id="ozlCW-Ee5-HFpllsYa1k">
-    <mxGraphModel dx="430" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2584" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -509,8 +509,14 @@
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-206" value="/instance/beat" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="3200.01" y="1410" width="89.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L0zeIL_IlN0LuXFVjX9a-207" target="L0zeIL_IlN0LuXFVjX9a-208">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-207" value="/instance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1939" y="1410" width="89.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="L0zeIL_IlN0LuXFVjX9a-208" target="NVwCvqEGYrxMSUIzLfOA-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-208" value="InstanceController.register" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1902.5" y="1470" width="160" height="40" as="geometry" />
@@ -560,20 +566,40 @@
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-7" value="更新最后心跳时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3187.63" y="1650" width="114.25" height="41" as="geometry" />
         </mxCell>
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-12" target="NVwCvqEGYrxMSUIzLfOA-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-12" value="new Instance()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1928.75" y="1552" width="110" height="32" as="geometry" />
         </mxCell>
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-13" target="NVwCvqEGYrxMSUIzLfOA-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-13" value="registerInstance(空间、服务名、instance)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1903.75" y="1614" width="166.25" height="56" as="geometry" />
+          <mxGeometry x="1900.6200000000001" y="1622.5" width="166.25" height="56" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-14" value="发布事件&lt;div&gt;RegisterInstanceTraceEvent&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1750" y="1622.5" width="100" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="NVwCvqEGYrxMSUIzLfOA-15" value="ephemeral" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1979" y="1714" width="151" height="66" as="geometry" />
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-15" target="NVwCvqEGYrxMSUIzLfOA-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NVwCvqEGYrxMSUIzLfOA-16" value="persistent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1808.75" y="1714" width="120" height="60" as="geometry" />
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-15" target="NVwCvqEGYrxMSUIzLfOA-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-15" target="NVwCvqEGYrxMSUIzLfOA-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2090" y="1800" />
+              <mxPoint x="2225" y="1800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-15" value="ephemeral&lt;div&gt;临时实例，Distro协议&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1976.75" y="1718" width="142" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-16" value="persistent&lt;div&gt;持久化实例，Raft协议&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1788.75" y="1728" width="140" height="46" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-22" target="NVwCvqEGYrxMSUIzLfOA-46">
           <mxGeometry relative="1" as="geometry" />
@@ -593,7 +619,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-25" value="获取Client对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1997.25" y="1790" width="101" height="40" as="geometry" />
+          <mxGeometry x="2179.5" y="1719" width="101" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-27" target="NVwCvqEGYrxMSUIzLfOA-31">
           <mxGeometry relative="1" as="geometry" />
@@ -601,14 +627,23 @@
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-27" value="addServiceInstance()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2361" y="1780" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-28" target="NVwCvqEGYrxMSUIzLfOA-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-28" value="ClientRegisterServiceEvent" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="1860" width="120" height="60" as="geometry" />
+          <mxGeometry x="1954.25" y="1840" width="185.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-29" target="NVwCvqEGYrxMSUIzLfOA-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-29" value="InstanceMetadataEvent" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="2200" y="1870" width="120" height="60" as="geometry" />
+          <mxGeometry x="2140" y="1840" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-30" target="NVwCvqEGYrxMSUIzLfOA-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-30" value="ServiceChangedEvent" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="2008" y="2020" width="120" height="60" as="geometry" />
+          <mxGeometry x="1960.25" y="2010" width="168" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-31" target="NVwCvqEGYrxMSUIzLfOA-39">
           <mxGeometry relative="1" as="geometry" />
@@ -616,20 +651,26 @@
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-31" value="&lt;div&gt;发送&lt;br&gt;&lt;/div&gt;ClientChangedEvent" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="2527.5" y="1780" width="150" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-32" target="NVwCvqEGYrxMSUIzLfOA-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-32" value="ClientServiceIndexesManager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="1940" width="120" height="60" as="geometry" />
+          <mxGeometry x="1954.25" y="1920" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-33" target="NVwCvqEGYrxMSUIzLfOA-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-33" target="NVwCvqEGYrxMSUIzLfOA-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-33" value="NamingSubscriberServiceV2Impl" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1939" y="2100" width="200" height="60" as="geometry" />
+          <mxGeometry x="1940" y="2120" width="199" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-34" value="通知所有的订阅者" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1939" y="2180" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NVwCvqEGYrxMSUIzLfOA-35" value="1.x版本是UDP推送&lt;div&gt;2.x版本是gRpc长连接&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1660" y="2370" width="120" height="80" as="geometry" />
+          <mxGeometry x="1850" y="2170" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-36" value="监控统计" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2126" y="2180" width="60" height="30" as="geometry" />
+          <mxGeometry x="2170" y="2150" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-37" value="NamingMetadataManager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2210" y="1960" width="120" height="60" as="geometry" />
@@ -677,7 +718,7 @@
           <mxGeometry x="2230" y="2540" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-45" value="AbstractNacosTaskExecuteEngine" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="2360" y="3010" width="220" height="80" as="geometry" />
+          <mxGeometry x="2307.5" y="3010" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-46" target="NVwCvqEGYrxMSUIzLfOA-44">
           <mxGeometry relative="1" as="geometry" />
@@ -706,7 +747,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-52" value="&lt;div&gt;addTask&lt;/div&gt;new&amp;nbsp;DistroSyncChangeTask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2691.5" y="2580" width="217" height="60" as="geometry" />
+          <mxGeometry x="2691.5" y="2610" width="217" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-53" target="NVwCvqEGYrxMSUIzLfOA-54">
           <mxGeometry relative="1" as="geometry" />
@@ -789,8 +830,32 @@
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-86" target="NVwCvqEGYrxMSUIzLfOA-85">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-86" target="NVwCvqEGYrxMSUIzLfOA-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-86" value="&lt;div&gt;addTask&lt;/div&gt;new PushExecuteTask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1890.75" y="2750" width="164" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-90" value="run方法&lt;div&gt;syncData&lt;div&gt;grpc同步数据请求&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2950" y="2545" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-91" target="NVwCvqEGYrxMSUIzLfOA-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-91" value="run" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="2750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-92" target="NVwCvqEGYrxMSUIzLfOA-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-92" value="getPushExecutor().&lt;div&gt;doPushWithCallback&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1579.5" y="2860" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-93" value="clientId中是否有#号区分用udp还是rpc推送" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1621.5" y="2970" width="136" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-111" value="1.x版本是UDP推送&lt;div&gt;2.x版本是gRpc长连接&lt;/div&gt;&lt;div&gt;1.x版本格式为：ip:port#&lt;span style=&quot;background-color: initial;&quot;&gt;ephemeral&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2.x版本格式为：time_ip_port&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="2930" width="216" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
