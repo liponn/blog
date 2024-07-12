@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T15:13:08.117Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="y01lWw7nyjkhQ7u67gCG" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-12T15:17:01.587Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="1wp7v9NQXtRu_7Ee96MP" version="24.6.4" type="github">
   <diagram name="第 1 页" id="ozlCW-Ee5-HFpllsYa1k">
     <mxGraphModel dx="1050" dy="2019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -817,7 +817,7 @@
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-85" value="&lt;div&gt;别名&quot;naming&quot;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFFFCC;" parent="1" vertex="1">
           <mxGeometry x="2137.13" y="2565" width="120.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NVwCvqEGYrxMSUIzLfOA-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="NVwCvqEGYrxMSUIzLfOA-86" target="NVwCvqEGYrxMSUIzLfOA-85" edge="1">
+        <mxCell id="NVwCvqEGYrxMSUIzLfOA-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="NVwCvqEGYrxMSUIzLfOA-86" target="NVwCvqEGYrxMSUIzLfOA-85" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1971.25" y="2390" as="sourcePoint" />
             <Array as="points">
@@ -834,7 +834,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-86" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;new PushExecuteTask&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1957" y="2365" width="164" height="40" as="geometry" />
+          <mxGeometry x="1957.88" y="2385" width="164" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-90" value="run方法&lt;div&gt;syncData&lt;div&gt;grpc同步数据请求&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00FFFF;" parent="1" vertex="1">
           <mxGeometry x="2465" y="2450" width="120" height="60" as="geometry" />
@@ -994,11 +994,11 @@
         <mxCell id="entX_LZe45Zs7ox7Cd2R-78" value="NacosExecuteTaskExecuteEngine" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFFFCC;" vertex="1" parent="1">
           <mxGeometry x="2182.13" y="2615" width="252" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="entX_LZe45Zs7ox7Cd2R-81" value="while(1){&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;queue.take()&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;并执行run&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00FFFF;" vertex="1" parent="1">
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-81" value="while(1){&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;queue.take()&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Task.run()&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00FFFF;" vertex="1" parent="1">
           <mxGeometry x="2207.38" y="2755" width="145.63" height="60" as="geometry" />
         </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-84" value="addTask" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FF3333;" vertex="1" parent="1">
-          <mxGeometry x="2150" y="2460" width="60" height="30" as="geometry" />
+          <mxGeometry x="2157.25" y="2465" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-86" value="addTask(new Task&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="2417.38" y="2650" width="130" height="30" as="geometry" />
@@ -1007,13 +1007,25 @@
           <mxGeometry x="2349" y="2465" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-90" value="定时任务去执行Prosessor.process()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" vertex="1" parent="1">
-          <mxGeometry x="2217.25" y="2330" width="120" height="50" as="geometry" />
+          <mxGeometry x="2217.5" y="2310" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-92" value="这里面有一个任务merge合并的逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#CCCC00;" vertex="1" parent="1">
-          <mxGeometry x="2232.25" y="2385" width="113" height="30" as="geometry" />
+          <mxGeometry x="2236" y="2370" width="113" height="30" as="geometry" />
         </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-94" value="继承" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2192" y="2157.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-95" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2202.75" y="2334.5" as="sourcePoint" />
+            <mxPoint x="2152.75" y="2334.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-96" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2353.01" y="2334.5" as="sourcePoint" />
+            <mxPoint x="2405.01" y="2334.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
