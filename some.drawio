@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T13:25:55.725Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="-U10A0rlT0kvYDH7EFXW" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-12T14:04:21.286Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="vLE4r7LCc8JgjQMR744c" version="24.6.4" type="github">
   <diagram name="第 1 页" id="ozlCW-Ee5-HFpllsYa1k">
-    <mxGraphModel dx="1405" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1194" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -411,17 +411,17 @@
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-175" value="创建udp socket接收服务端推送过来的数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1378.5" y="1724" width="149" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="L0zeIL_IlN0LuXFVjX9a-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" parent="1" source="L0zeIL_IlN0LuXFVjX9a-176" target="L0zeIL_IlN0LuXFVjX9a-177" edge="1">
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="L0zeIL_IlN0LuXFVjX9a-176" target="L0zeIL_IlN0LuXFVjX9a-177">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-176" value="client调用接口" style="ellipse;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="1790" y="620" width="112.5" height="55" as="geometry" />
+          <mxGeometry x="1934" y="610" width="112.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="L0zeIL_IlN0LuXFVjX9a-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" parent="1" source="L0zeIL_IlN0LuXFVjX9a-177" target="L0zeIL_IlN0LuXFVjX9a-178" edge="1">
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="L0zeIL_IlN0LuXFVjX9a-177" target="entX_LZe45Zs7ox7Cd2R-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="L0zeIL_IlN0LuXFVjX9a-177" value="服务发现" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="1984" y="632.5" width="84" height="30" as="geometry" />
+        <mxCell id="L0zeIL_IlN0LuXFVjX9a-177" value="OpenFeign" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="1948.25" y="682.5" width="84" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" parent="1" source="L0zeIL_IlN0LuXFVjX9a-178" target="L0zeIL_IlN0LuXFVjX9a-197" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -468,19 +468,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-185" value="添加定时更新" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="2170" y="1095" width="84" height="31" as="geometry" />
+          <mxGeometry x="2118.75" y="1095" width="84" height="31" as="geometry" />
         </mxCell>
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shadow=1;" parent="1" source="L0zeIL_IlN0LuXFVjX9a-186" target="L0zeIL_IlN0LuXFVjX9a-187" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-186" value="UpdateTask" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9933;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="2290" y="1093" width="84" height="35" as="geometry" />
+          <mxGeometry x="2238.75" y="1093" width="84" height="35" as="geometry" />
         </mxCell>
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" parent="1" source="L0zeIL_IlN0LuXFVjX9a-187" target="L0zeIL_IlN0LuXFVjX9a-183" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-187" value="定时请求接口刷新" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="2275.5" y="1030" width="113" height="30" as="geometry" />
+          <mxGeometry x="2224.25" y="1030" width="113" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" parent="1" source="L0zeIL_IlN0LuXFVjX9a-197" target="L0zeIL_IlN0LuXFVjX9a-180" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -490,9 +490,6 @@
         </mxCell>
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=45;entryPerimeter=0;shadow=1;" parent="1" source="L0zeIL_IlN0LuXFVjX9a-182" target="L0zeIL_IlN0LuXFVjX9a-181" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="L0zeIL_IlN0LuXFVjX9a-203" value="缺失Ribbon" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="2120" y="662.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-204" value="nacos服务端 V2.3.2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1918.75" y="1250" width="120" height="60" as="geometry" />
@@ -937,6 +934,36 @@
         </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-31" value="实例是否健康" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3395.76" y="1744" width="106" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="entX_LZe45Zs7ox7Cd2R-36" target="entX_LZe45Zs7ox7Cd2R-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-36" value="RibbonNacosAutoConfiguration&lt;div&gt;自动配置&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="600" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="entX_LZe45Zs7ox7Cd2R-37" target="entX_LZe45Zs7ox7Cd2R-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-37" value="&lt;div&gt;@Bean&lt;/div&gt;ribbonServerList" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2192" y="677.5" width="116" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="entX_LZe45Zs7ox7Cd2R-38" target="L0zeIL_IlN0LuXFVjX9a-197">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2250" y="845" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-38" value="获取nacos的Instance" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2185" y="760" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" target="entX_LZe45Zs7ox7Cd2R-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2152.5" y="697.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-40" value="负载均衡&lt;div&gt;loadbalancer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="2063.75" y="676.5" width="93.75" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
