@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T15:08:59.328Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="PYMsTk6Yut541PlgH8jP" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-12T15:13:08.117Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="y01lWw7nyjkhQ7u67gCG" version="24.6.4" type="github">
   <diagram name="第 1 页" id="ozlCW-Ee5-HFpllsYa1k">
-    <mxGraphModel dx="1837" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="2019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="entX_LZe45Zs7ox7Cd2R-93" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2422.38" y="1621.5" width="277.62" height="918.5" as="geometry" />
+          <mxGeometry x="2422.38" y="1690" width="277.62" height="850" as="geometry" />
         </mxCell>
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-150" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E5CCFF;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="1340" y="640" width="300" height="450" as="geometry" />
@@ -513,7 +513,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-207" value="/instance" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="1922.75" y="1461.5" width="89.5" height="30" as="geometry" />
+          <mxGeometry x="1922.75" y="1489" width="89.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L0zeIL_IlN0LuXFVjX9a-208" target="NVwCvqEGYrxMSUIzLfOA-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -522,7 +522,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-208" value="InstanceController.register" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1887.5" y="1531.5" width="160" height="40" as="geometry" />
+          <mxGeometry x="1887.5" y="1550" width="160" height="21.5" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L0zeIL_IlN0LuXFVjX9a-209" target="NVwCvqEGYrxMSUIzLfOA-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -691,10 +691,10 @@
           <mxGeometry x="1948.25" y="1980" width="199" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-34" value="通知所有的订阅者" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1845.31" y="2070" width="120" height="30" as="geometry" />
+          <mxGeometry x="1861.25" y="2080" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-36" value="监控统计" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="2220" y="2070" width="60" height="30" as="geometry" />
+          <mxGeometry x="2238.75" y="2067.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-37" value="NamingMetadataManager" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2238.75" y="1860" width="160" height="30" as="geometry" />
@@ -706,13 +706,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-39" value="DistroClientDataProcessor" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2452.5" y="1820" width="145" height="30" as="geometry" />
+          <mxGeometry x="2452.5" y="1880" width="145" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NVwCvqEGYrxMSUIzLfOA-40" target="NVwCvqEGYrxMSUIzLfOA-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-40" value="如果不是单机" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2472.5" y="1890" width="105" height="50" as="geometry" />
+          <mxGeometry x="2472.5" y="1930" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.625;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-41" target="NVwCvqEGYrxMSUIzLfOA-44">
           <mxGeometry relative="1" as="geometry" />
@@ -735,10 +735,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-44" value="NacosDelayTaskExecuteEngine" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFFFCC;" parent="1" vertex="1">
-          <mxGeometry x="2157.5" y="2240" width="240" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="NVwCvqEGYrxMSUIzLfOA-45" value="AbstractNacosTaskExecuteEngine" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#CCCC00;" parent="1" vertex="1">
-          <mxGeometry x="2178.75" y="3090" width="220" height="40" as="geometry" />
+          <mxGeometry x="2157.5" y="2240" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.375;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NVwCvqEGYrxMSUIzLfOA-46" target="NVwCvqEGYrxMSUIzLfOA-44">
           <mxGeometry relative="1" as="geometry" />
@@ -795,7 +792,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-72" value="syncToAllServer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2469" y="1970" width="110" height="30" as="geometry" />
+          <mxGeometry x="2470" y="2010" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="NVwCvqEGYrxMSUIzLfOA-77" target="NVwCvqEGYrxMSUIzLfOA-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -864,7 +861,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-2" value="@CanDistro注解" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#FF9933;" vertex="1" parent="1">
-          <mxGeometry x="2084" y="1521.5" width="140.5" height="60" as="geometry" />
+          <mxGeometry x="2083.75" y="1530.75" width="140.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="entX_LZe45Zs7ox7Cd2R-3" target="entX_LZe45Zs7ox7Cd2R-4">
           <mxGeometry relative="1" as="geometry" />
@@ -873,16 +870,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-3" value="DistroFilter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2229" y="1461.5" width="80" height="30" as="geometry" />
+          <mxGeometry x="2229" y="1489" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-4" value="实现Servlet的Filter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2208" y="1392.5" width="122" height="40" as="geometry" />
+          <mxGeometry x="2208" y="1420" width="122" height="40" as="geometry" />
         </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="entX_LZe45Zs7ox7Cd2R-6" target="L0zeIL_IlN0LuXFVjX9a-207">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-6" value="根据Distro协议转发请求到对应的写节点" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9933;" vertex="1" parent="1">
-          <mxGeometry x="2077.75" y="1456.5" width="116.75" height="40" as="geometry" />
+          <mxGeometry x="2077.75" y="1484" width="116.75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="entX_LZe45Zs7ox7Cd2R-13" target="entX_LZe45Zs7ox7Cd2R-14">
           <mxGeometry relative="1" as="geometry" />
@@ -979,8 +976,8 @@
         <mxCell id="entX_LZe45Zs7ox7Cd2R-52" value="&lt;div&gt;ClientChangedEvent&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#66FF66;" vertex="1" parent="1">
           <mxGeometry x="3590" y="1772" width="200" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="entX_LZe45Zs7ox7Cd2R-57" value="Distro对等同步" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FF9933;" vertex="1" parent="1">
-          <mxGeometry x="2432.38" y="1629" width="100" height="35" as="geometry" />
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-57" value="Distro协议对等同步" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FF9933;" vertex="1" parent="1">
+          <mxGeometry x="2570" y="1792.5" width="115" height="35" as="geometry" />
         </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-60" value="AP模式" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FF9933;" vertex="1" parent="1">
           <mxGeometry x="2337.25" y="1534" width="60" height="30" as="geometry" />
@@ -1014,6 +1011,9 @@
         </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-92" value="这里面有一个任务merge合并的逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#CCCC00;" vertex="1" parent="1">
           <mxGeometry x="2232.25" y="2385" width="113" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-94" value="继承" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2192" y="2157.5" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
