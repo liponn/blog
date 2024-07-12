@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T14:04:21.286Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="vLE4r7LCc8JgjQMR744c" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-12T14:13:06.723Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="XAVFZXO-v_0bwWuGCr0P" version="24.6.4" type="github">
   <diagram name="第 1 页" id="ozlCW-Ee5-HFpllsYa1k">
     <mxGraphModel dx="1194" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -504,7 +504,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-206" value="/instance/beat" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFCC;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="3404.01" y="1411" width="89.5" height="30" as="geometry" />
+          <mxGeometry x="3404.01" y="1430" width="89.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L0zeIL_IlN0LuXFVjX9a-207" target="L0zeIL_IlN0LuXFVjX9a-208" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -531,7 +531,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-210" value="InstanceController.beat" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3368.75" y="1471" width="160" height="40" as="geometry" />
+          <mxGeometry x="3373.14" y="1480" width="151.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="L0zeIL_IlN0LuXFVjX9a-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="L0zeIL_IlN0LuXFVjX9a-213" target="L0zeIL_IlN0LuXFVjX9a-214" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -558,16 +558,16 @@
           <mxGeometry x="3388.75" y="1571" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-5" value="根据beat的ip+端口+临时实例ephemeral" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="3260" y="1531" width="160" height="50" as="geometry" />
+          <mxGeometry x="3450" y="1514" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-6" value="存在返回10200&lt;div&gt;不存在返回20404&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3388.75" y="1906" width="120" height="60" as="geometry" />
+          <mxGeometry x="3388.76" y="1860" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NVwCvqEGYrxMSUIzLfOA-7" target="NVwCvqEGYrxMSUIzLfOA-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-7" value="更新最后心跳时间" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="3391.63" y="1830" width="114.25" height="41" as="geometry" />
+          <mxGeometry x="3391.62" y="1789.5" width="114.25" height="41" as="geometry" />
         </mxCell>
         <mxCell id="NVwCvqEGYrxMSUIzLfOA-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NVwCvqEGYrxMSUIzLfOA-12" target="NVwCvqEGYrxMSUIzLfOA-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -914,26 +914,28 @@
         <mxCell id="entX_LZe45Zs7ox7Cd2R-25" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1075" y="2120" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="entX_LZe45Zs7ox7Cd2R-26" value="实例不存在，调创建实例instance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3590" y="1571" width="200" height="36" as="geometry" />
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-26" value="如果实例不存在&lt;div&gt;调创建实例instance方法&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3560" y="1573" width="150" height="36" as="geometry" />
         </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="entX_LZe45Zs7ox7Cd2R-27" target="entX_LZe45Zs7ox7Cd2R-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="entX_LZe45Zs7ox7Cd2R-27" value="scheduleNow(beatProcessor)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3358.76" y="1674" width="180" height="36" as="geometry" />
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-27" value="scheduleNow(beatProcessor)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF3399;" vertex="1" parent="1">
+          <mxGeometry x="3358.75" y="1642.5" width="180" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="entX_LZe45Zs7ox7Cd2R-29" value="&lt;div&gt;ServiceChangedEvent&lt;/div&gt;&lt;div&gt;ClientChangedEvent&lt;/div&gt;&lt;div&gt;HealthStateChangeTraceEvent&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="3612" y="1746" width="220" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="entX_LZe45Zs7ox7Cd2R-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="entX_LZe45Zs7ox7Cd2R-31" target="entX_LZe45Zs7ox7Cd2R-29">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-29" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;HealthStateChangeTraceEvent&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="3590" y="1722" width="200" height="28" as="geometry" />
         </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="entX_LZe45Zs7ox7Cd2R-31" target="NVwCvqEGYrxMSUIzLfOA-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="entX_LZe45Zs7ox7Cd2R-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3590" y="1733" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-31" value="实例是否健康" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3395.76" y="1744" width="106" height="54" as="geometry" />
+          <mxGeometry x="3395.75" y="1706" width="106" height="54" as="geometry" />
         </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=1;" edge="1" parent="1" source="entX_LZe45Zs7ox7Cd2R-36" target="entX_LZe45Zs7ox7Cd2R-37">
           <mxGeometry relative="1" as="geometry" />
@@ -964,6 +966,15 @@
         </mxCell>
         <mxCell id="entX_LZe45Zs7ox7Cd2R-40" value="负载均衡&lt;div&gt;loadbalancer&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="2063.75" y="676.5" width="93.75" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-50" value="发布事件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3508.75" y="1742" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-51" value="&lt;div&gt;ServiceChangedEvent&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="3590" y="1674" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="entX_LZe45Zs7ox7Cd2R-52" value="&lt;div&gt;ClientChangedEvent&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="3590" y="1772" width="200" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
